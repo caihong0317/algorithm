@@ -21,7 +21,8 @@ public class LoaderTest {
         }
     }
 
-    public void test(){
-        System.out.println("Hello");
+    public void say(){
+        int i=1;
+        System.out.println("world");
     }
 }
