@@ -12,6 +12,7 @@ public class LoaderTest {
             Class<?> aClass2 = classLoader2.loadClass("com.caihong.TestLoad");
             System.out.println(classLoader1 == classLoader2);
             System.out.println(aClass1 == aClass2);
+            System.out.println("master 的修改");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
