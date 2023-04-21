@@ -20,7 +20,6 @@ public class LoaderTest {
 
      public void work(){
         System.out.println("do working");
-        System.out.println("do working");
     }
 
     public void say(){
