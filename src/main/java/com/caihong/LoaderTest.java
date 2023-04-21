@@ -18,9 +18,13 @@ public class LoaderTest {
             e.printStackTrace();
         }
     }
+    
+     public void work(){
+        System.out.println("do working");
+        System.out.println("do working");
+    }
 
     public void say(){
-        int i=1;
-        System.out.println("world");
+        System.out.println(str);
     }
 }
